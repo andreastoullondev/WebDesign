@@ -51,11 +51,39 @@ nav.menu-desktop a:hover{text-decoration: underline;}
 
 
 section.main-bg{
+    position: relative;
     width: 100%;
-    height: 600px;
-    background-image:url('/images/jsretrato.jpg');
+    padding: 200px 0;
+    background-image:url('/images/hacker.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+section.main-bg > .container{
+    position: relative;
+    z-index: 1;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    left: 0;
+    top: 0;
+}
+
+section.main-bg h2{
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+section.main-bg p{
+    text-align: left;
+    color: white;
+    font-size: 17px;
+    margin-top: 15px;
+
 }
 
