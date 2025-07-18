@@ -26,7 +26,7 @@ header{
     font-size: 23px;
 }
 
-nav.menu-desktop li.selected{font-weight: bold;}
+nav.menu-desktop li.selected{font-weight: normal;text-decoration: underline;}
 nav.menu-desktop{
     float: right;
 }
@@ -46,3 +46,16 @@ nav.menu-desktop a{
 }
 
 nav.menu-desktop a:hover{text-decoration: underline;}
+
+/*main BG */
+
+
+section.main-bg{
+    width: 100%;
+    height: 600px;
+    background-image:url('/images/jsretrato.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
