@@ -10,6 +10,14 @@
     margin: 0 auto;
     padding: 0 2%;
 }
+
+.w50{
+    width: 50%;
+    float: left;
+}
+
+.center{text-align: center;}
+
 .clear{clear: both;}
 
 /* classses do meu site*/
@@ -188,6 +196,36 @@ section.sobre-equipe > .container{
     font-style: italic;
 }
 
+section.inscricao{
+    background-color: #424242;
+    padding: 20px 0 ;
+}
+
+h2.inscricao-texto{
+    font-weight: normal;
+    color: rgb(245, 245, 245);
+}
+
+.inscricao-form input[type=text]{
+    width:calc(100% - 120px);
+    height: 30px;
+    background-color: #2563eb;
+    border: 1px solid #bfdbfe;
+    display: inline-block;
+}
+
+.inscricao-form input[type=submit]{
+    width:120px;
+    height: 30px;
+    background-color: #b3bfd8;
+     border: 1px solid #bfdbfe;
+    cursor: pointer;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    
+}
+
 
 
 
@@ -206,6 +244,11 @@ section.sobre-equipe > .container{
         width: 100%;
         margin-top: 60px;
     }
+
+    .w50{
+    width: 100%;
+    float: left;
+    }
    
 
     
@@ -223,6 +266,12 @@ section.sobre-equipe > .container{
     .sobre-container{
         width: 100%;
         margin-top: 60px;
+    }
+
+    .w50{
+    width: 100%;
+    float: left;
+    padding: 15px 0;
     }
 }
 
