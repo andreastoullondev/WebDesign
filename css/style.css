@@ -218,7 +218,7 @@ h2.inscricao-texto{
     width:120px;
     height: 30px;
     background-color: #b3bfd8;
-     border: 1px solid #bfdbfe;
+    border: 1px solid #bfdbfe;
     cursor: pointer;
     display: inline-block;
     color: black;
@@ -226,10 +226,35 @@ h2.inscricao-texto{
     
 }
 
+section.cards{
+    padding: 30px 0 ;
+    background-color: #dfe6f0;
+}
 
+.card-single{
+    width: 33.3%;
+    float: left;
+    border: #dfe6f0 solid 50px;
+    border-bottom: 2px solid #ccc ;
+}
+/* preciso ajeitar esse border com padding não ficou bom */ 
+.card-single img{
+    width: 100%;
+}
 
+.card-single h3{
+    font-weight: bold;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 10px;
+}
 
-
+.card-single p{
+    font-size: 16px;
+    text-align: left;
+    margin: 0 0 20px;
+    font-weight: normal;
+}
 
 @media screen and (max-width: 768px){
     .box-icone-single{
@@ -249,7 +274,15 @@ h2.inscricao-texto{
     width: 100%;
     float: left;
     }
-   
+
+    .card-single{
+        width: 100%;
+    }
+    /* depois vou ver responsivo das imagens  
+    .card-single img{
+        max-width: 500px;
+    }
+   */ 
 
     
 }
@@ -272,6 +305,10 @@ h2.inscricao-texto{
     width: 100%;
     float: left;
     padding: 15px 0;
+    }
+
+     .card-single{
+        width: 100%;
     }
 }
 
