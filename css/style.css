@@ -289,6 +289,13 @@ div.group-icons a{
     margin: 15px 10px;
 }
 
+footer.footer2{
+    background-color: #a3bcf1;
+    text-align: center;
+    color:black;
+    padding: 15px 0 ;
+}
+
 
 @media screen and (max-width: 768px){
 
