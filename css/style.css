@@ -38,7 +38,38 @@ header{
     font-weight: normal;
     font-size: 23px;
 }
+nav.menu-mobile{
+    display:none;
+    float: right;
+}
+nav.menu-mobile h2{
+    cursor: pointer;
+}
+nav.menu-mobile ul{
+    display: none;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    z-index: 999;
+    text-align: center;
+}
 
+nav.menu-mobile li{
+    padding: 8px;
+    border-bottom: 2px solid black;
+}
+
+nav.menu-mobile li.selected{
+    background: red;
+}
+
+nav.menu-mobile a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
 nav.menu-desktop li.selected{font-weight: normal;text-decoration: underline;}
 nav.menu-desktop{
     float: right;
@@ -298,6 +329,10 @@ footer.footer2{
 
 
 @media screen and (max-width: 768px){
+    nav.menu-desktop{display: none;}
+    nav.menu-mobile{
+        display: block;
+    }
 
     footer.footer1 {
         text-align: center;
@@ -333,8 +368,9 @@ footer.footer2{
 }
 
 @media screen and (max-width: 900px){
+   
 
-     footer.footer1 {
+    footer.footer1 {
         text-align: center;
     }
     .box-icone-single{
