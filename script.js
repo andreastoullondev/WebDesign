@@ -6,6 +6,6 @@ document.querySelector('.menu-mobile h2').addEventListener('click', () => {
 
 
     if(isMobile){
-        menu.style.display = menu.style.display === "none" ? "" : "none";
+        menu.style.display = menu.style.display === "none" ? "block" : "none";
     }
 });
