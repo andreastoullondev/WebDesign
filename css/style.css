@@ -396,7 +396,7 @@ section.contato .w100{
     footer.footer1 {
         text-align: center;
     }
-    .box-icone-single{
+    .box-icone-single,.w60,.w40{
         width: 100%;
     }
 
