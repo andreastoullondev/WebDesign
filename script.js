@@ -16,5 +16,21 @@ function testarPing(){
     const resultado = document.getElementById('resultado');
     resultado.innerHTML = 'Testando ping...';
 
+    // Simulação do tempo de resposta
+
+    const sucesso = Math.random() > 0.3;// 70% de chance de sucesso
+
+    setTimeout(() => {
+        const sucesso = Math.random() > 0.3;// 70% de chance de sucesso
+
+        if(sucesso){
+        resultado.innerHTML = 'Ping bem sucedido" conexão estavel.';
+        }else{
+        resultado.innerHTML = 'Falha no ping! Verifique a conexão';
+        }
+    },1500 );
+    
+      
+        
     
 }
