@@ -12,6 +12,7 @@ document.querySelector('.menu-mobile h2').addEventListener('click', () => {
 
 
 function testarPing(){
+    // conexão com HTML 
     const resultado = document.getElementById('resultado');
     resultado.innerHTML = 'Testando ping...';
 
