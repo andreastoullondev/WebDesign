@@ -18,8 +18,6 @@ function testarPing(){
 
     // Simulação do tempo de resposta
 
-    const sucesso = Math.random() > 0.3;// 70% de chance de sucesso
-
     setTimeout(() => {
         const sucesso = Math.random() > 0.3;// 70% de chance de sucesso
 
