@@ -9,3 +9,11 @@ document.querySelector('.menu-mobile h2').addEventListener('click', () => {
         menu.style.display = menu.style.display === "none" ? "block" : "none";
     }
 });
+
+
+function testarPing(){
+    const resultado = document.getElementById('resultado');
+    resultado.innerHTML = 'Testando ping...';
+
+    
+}
