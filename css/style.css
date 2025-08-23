@@ -321,16 +321,20 @@ div.group-icons a{
     margin: 15px 10px;
 }
 
-footer.ctn{
+.footer2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    margin-top: 0; 
+}
+        
+.ctn{
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 2%;
-}
-
-footer .ctn > .footer2{
-    background-color: black;
-    display: flex;
-    justify-content: center;
 }
 /* eu ia continuar usando nivel de especificação mas não estava funcionando */
 .banner{
