@@ -26,7 +26,7 @@ function testarPing(){
         }else{
         resultado.innerHTML = 'Falha no ping! Verifique a conexão';
         }
-    },1500 );
+    },1500);
     
       
         
