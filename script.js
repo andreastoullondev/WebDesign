@@ -28,7 +28,15 @@ function testarPing(){
         }
     },1500);
     
-      
-        
-    
 }
+
+
+function testarMs(){
+
+    const aleatorio = Math.random();
+    const result = aleatorio > 0.5 ? "Bom" : "Ruim";
+
+    document.getElementById("result").textContent = `Resultado do teste: ${result}`;
+}
+
+
