@@ -31,10 +31,17 @@ function testarPing(){
 }
 
 
+function obterIntensidade(){
+    return 1500;
+}
+
 function testarMs(){
 
-    const aleatorio = Math.random();
-    const result = aleatorio > 0.5 ? "Bom" : "Ruim";
+    //const aleatorio = Math.random();
+    //const result = aleatorio > 0.5 ? "Bom" : "Ruim";
+
+    const intensidade = obterIntensidade();
+    const result = intensidade > 1000 ? "Bom" : "Ruim";
 
     document.getElementById("result").textContent = `Resultado do teste: ${result}`;
 }
